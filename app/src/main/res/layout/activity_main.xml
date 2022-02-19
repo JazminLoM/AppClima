@@ -25,13 +25,14 @@
         android:layout_marginRight="142dp"
         android:layout_marginBottom="455dp"
         android:text="@string/texto_grados"
+        android:textAlignment="center"
         android:textColor="@color/white"
         android:textSize="72sp" />
 
     <TextView
         android:id="@+id/tvCiudad"
-        android:layout_width="246dp"
-        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
 
         android:layout_alignParentStart="true"
 
@@ -40,19 +41,20 @@
         android:layout_alignParentEnd="true"
         android:layout_alignParentRight="true"
         android:layout_alignParentBottom="true"
-        android:layout_marginStart="83dp"
-        android:layout_marginLeft="83dp"
+        android:layout_marginStart="0dp"
+        android:layout_marginLeft="0dp"
         android:layout_marginTop="339dp"
-        android:layout_marginEnd="82dp"
-        android:layout_marginRight="82dp"
-        android:layout_marginBottom="349dp"
+        android:layout_marginEnd="0dp"
+        android:layout_marginRight="0dp"
+        android:layout_marginBottom="312dp"
         android:text="@string/texto_ciudad"
+        android:textAlignment="center"
         android:textColor="@color/Blancoazul"
         android:textSize="30sp" />
 
     <TextView
         android:id="@+id/tvEstatus"
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
 
         android:layout_alignParentStart="true"
@@ -61,13 +63,14 @@
         android:layout_alignParentEnd="true"
         android:layout_alignParentRight="true"
         android:layout_alignParentBottom="true"
-        android:layout_marginStart="165dp"
-        android:layout_marginLeft="165dp"
-        android:layout_marginTop="455dp"
-        android:layout_marginEnd="144dp"
-        android:layout_marginRight="144dp"
-        android:layout_marginBottom="233dp"
+        android:layout_marginStart="2dp"
+        android:layout_marginLeft="2dp"
+        android:layout_marginTop="457dp"
+        android:layout_marginEnd="-2dp"
+        android:layout_marginRight="-2dp"
+        android:layout_marginBottom="199dp"
         android:text="@string/texto_estatus"
+        android:textAlignment="center"
         android:textColor="@color/moradito"
         android:textSize="24sp" />
 
