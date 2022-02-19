@@ -23,8 +23,10 @@ class MainActivity : AppCompatActivity() {
         val ciudad = intent.getStringExtra("com.example.appclima.ciudades.CIUDAD")
 
 
-        val ciudadfcp = Ciudad("Ciudad de Felipe Carrillo Puerto", 32, "Soleado")
+        val ciudadfcp = Ciudad("Felipe Carrillo Puerto", 32, "Soleado")
         val ciudadMerida = Ciudad("Ciudad de Merida, Yucatan", 31, "Parcialmente Nublado")
+        val ciudadMexico = Ciudad("Ciudad de Mexico", 27, "Mayormente Soleado")
+        val ciudadCancun = Ciudad("Cancun, Qunitana Roo", 28, "Mayormente Soleado")
 
         if(ciudad == "ciudad-felipe"){
             // mostrar informacion ciudadfcp
@@ -38,6 +40,17 @@ class MainActivity : AppCompatActivity() {
             tvGrados?.text = ciudadMerida.grados.toString() + "°"
             tvEstatus?.text = ciudadMerida.estatus
 
+        }else if(ciudad == "ciudad-mexico"){
+            //mostrar informacion ciudadmexico
+            tvCiudad?.text = ciudadMexico.nombre
+            tvGrados?.text = ciudadMexico.grados.toString() + "°"
+            tvEstatus?.text = ciudadMexico.estatus
+
+        }else if(ciudad == "ciudad-cancun"){
+            // mostrar informacion ciudadCancun
+            tvCiudad?.text = ciudadCancun.nombre
+            tvGrados?.text = ciudadCancun.grados.toString() + "°"
+            tvEstatus?.text = ciudadCancun.estatus
         }else{
             Toast.makeText(this, "No se encuentra la informacion", Toast.LENGTH_SHORT).show()
         }

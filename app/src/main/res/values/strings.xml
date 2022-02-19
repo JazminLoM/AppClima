@@ -8,6 +8,8 @@
         Bienvenido a mi app del clima, para poder ver el clima de una ciudad selecciona la opcion
         de abajo
     </string>
-    <string name="texto_boton_carrillo">Clima de la ciudad de Felipe Carrillo Puerto</string>
+    <string name="texto_boton_carrillo">Clima de Felipe Carrillo Puerto, Quintana Roo</string>
     <string name="texto_boton_Merida">Clima de la ciudad de Merida, Yucatan</string>
+    <string name="texto_boton_Cancun">Clima de Cancun, Quintan Roo</string>
+    <string name="texto_boton_cdMexico">Clima de la ciudad de México</string>
 </resources>

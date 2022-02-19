@@ -26,4 +26,16 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/texto_boton_Merida" />
+
+    <Button
+        android:id="@+id/bMexico"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/texto_boton_cdMexico" />
+
+    <Button
+        android:id="@+id/bCancun"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/texto_boton_Cancun" />
 </LinearLayout>
